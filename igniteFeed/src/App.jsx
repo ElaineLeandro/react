@@ -1,8 +1,25 @@
+import { Header } from './components/Header'
+import {Post} from './Post'
+import './styles.css'
+
 export function App() {
-  
   return (
-   <h1>Olá linda</h1>
+    <>
+    <Header/>
+
+    <Post 
+      author={"Elaine Leandro" }
+      content={"lalalalalalalalalallalallalalalal"}
+    />
+    <Post
+     author={"Asly" }
+     content={"Benicio"}
+    />
+    
+    </>
+   
   )
 }
+
 
 
