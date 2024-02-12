@@ -5,7 +5,7 @@ import { NewNoteCard } from './components/new-note-card'
 
 const note = {
   date: new Date(),
-  content: "Eu sou abençoada!",
+  content: "Olá",
 }
 
 export function App() {
